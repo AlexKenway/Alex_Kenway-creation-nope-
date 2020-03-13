@@ -1,7 +1,7 @@
-Symfony Demo Application
+Alex_Kenway Page
 ========================
 
-The "Symfony Demo Application" is a reference application created to show how
+The "Alex_Kenway Application" is a reference application created to show how
 to develop applications following the [Symfony Best Practices][1].
 
 Requirements

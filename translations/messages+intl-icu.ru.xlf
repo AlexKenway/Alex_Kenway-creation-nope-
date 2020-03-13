@@ -58,7 +58,7 @@
 
             <trans-unit id="title.homepage">
                 <source>title.homepage</source>
-                <target><![CDATA[Добро пожаловать в <strong>Symfony Demo</strong> приложение]]></target>
+                <target><![CDATA[Добро пожаловать к <strong>Alex_Kenway</strong> домой]]></target>
             </trans-unit>
             <trans-unit id="title.source_code">
                 <source>title.source_code</source>
@@ -365,11 +365,11 @@
             </trans-unit>
             <trans-unit id="help.browse_app">
                 <source>help.browse_app</source>
-                <target><![CDATA[Перейти в <strong>публичный раздел</strong> демо приложения.]]></target>
+                <target><![CDATA[Перейти в <strong>публичный раздел</strong> Alex_Kenway творение.]]></target>
             </trans-unit>
             <trans-unit id="help.browse_admin">
                 <source>help.browse_admin</source>
-                <target><![CDATA[Перейти в <strong>панель управления</strong> демо приложения.]]></target>
+                <target><![CDATA[Перейти в <strong>панель управления</strong> Alex_Kenway творение.]]></target>
             </trans-unit>
             <trans-unit id="help.login_users">
                 <source>help.login_users</source>
@@ -419,11 +419,11 @@
 
             <trans-unit id="rss.title">
                 <source>rss.title</source>
-                <target>Symfony Demo блог</target>
+                <target>Alex_Kenway блог</target>
             </trans-unit>
             <trans-unit id="rss.description">
                 <source>rss.description</source>
-                <target>Самые последние записи, опубликованные в Symfony Demo блоге</target>
+                <target>Самые последние записи, опубликованные в Alex_Kenway блоге</target>
             </trans-unit>
 
             <trans-unit id="paginator.previous">

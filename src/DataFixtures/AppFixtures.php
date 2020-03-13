@@ -150,7 +150,7 @@ class AppFixtures extends Fixture
             'Eros diam egestas libero eu vulputate risus',
             'In hac habitasse platea dictumst',
             'Morbi tempus commodo mattis',
-            'Ut suscipit posuere justo at vulputate',
+            'Хуй пизда Джигурда',
             'Ut eleifend mauris et risus ultrices egestas',
             'Aliquam sodales odio id eleifend tristique',
             'Urna nisl sollicitudin id varius orci quam id turpis',
