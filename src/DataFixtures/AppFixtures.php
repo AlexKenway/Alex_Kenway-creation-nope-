@@ -129,7 +129,7 @@ class AppFixtures extends Fixture
             $posts[] = [
                 $title,
                 $this->slugger->slug($title)->lower(),
-                $this->getRandomText(),
+                $this->getRandomText($i),
                 $this->getPostContent(),
                 new \DateTime('now - '.$i.'days'),
                 // Ensure that the first post is written by Jane Doe to simplify tests
@@ -177,17 +177,9 @@ class AppFixtures extends Fixture
         ];
     }
 
-    private function getRandomText(int $maxLength = 255): string
+    private function getRandomText(int $i): string
     {
-        $phrases = $this->getPhrases();
-        shuffle($phrases);
-
-        do {
-            $text = u('. ')->join($phrases)->append('.');
-            array_pop($phrases);
-        } while ($text->length() > $maxLength);
-
-        return $text;
+        return "post.random_text.$i";
     }
 
     private function getPostContent(): string
